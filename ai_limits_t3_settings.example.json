@@ -1,0 +1,23 @@
+{
+  "_about": "Copy to ai_limits_t3_settings.json (next to the scripts) and change what you need. Every key is optional; these are the defaults. Paths may use forward slashes, %VARIABLES% and ~. Any key can also be set with an environment variable AI_LIMITS_T3_<KEY>, e.g. AI_LIMITS_T3_PORT=47900.",
+  "port": 47823,
+  "source": "auto",
+  "latest_json": "%LOCALAPPDATA%/ai-limits-monitor/latest.json",
+  "max_age_minutes": 15,
+  "data_dir": "%LOCALAPPDATA%/ai-limits-monitor-t3",
+  "avatar_dir": "",
+  "services": [
+    "Claude",
+    "Codex",
+    "Gemini",
+    "DeepSeek",
+    "Grok"
+  ],
+  "time_zone": "local",
+  "time_zone_label": "",
+  "refresh_minutes": 5,
+  "kimi_credentials": "",
+  "gemini_badge": "",
+  "gemini_notes": [],
+  "demo": false
+}
